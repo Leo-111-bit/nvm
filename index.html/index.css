@@ -1,0 +1,51 @@
+.love-image img {
+    border-radius: 1rem;
+    width: 90%; /* Use relative width */
+    max-width: 450px; /* Set a max-width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+.text {
+    font-family: sans-serif; /* Change to a non-cursive font */
+    font-weight: bolder;
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some spacing */
+}
+
+.butt, .butt-2 {
+    margin: 10px auto; /* Center the buttons */
+    text-align: center;
+}
+
+button {
+    width: 80%; /* Make button responsive */
+    max-width: 200px; /* Set a max-width */
+    height: 2rem;
+    background-color: purple;
+    outline: none;
+    color: white;
+    font-family: sans-serif; /* Change to a non-cursive font */
+    border: none;
+    border-radius: 2rem;
+    display: block;
+    margin: 10px auto; /* Center the button */
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column; /* Stack buttons on mobile */
+    align-items: center; /* Center align items */
+}
+
+body {
+    position: relative; /* Allow scrolling */
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}

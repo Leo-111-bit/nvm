@@ -1,0 +1,18 @@
+.love-image img {
+    width: 90%; /* Use relative width */
+    max-width: 450px; /* Set a max-width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+.text {
+    font-family: sans-serif; /* Change to a non-cursive font */
+    font-weight: bolder;
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some spacing */
+}
+
+h2 {
+    text-align: center;
+}
